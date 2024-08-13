@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Muli", sans-serif;
-  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-}
-
-* {
-  box-sizing: border-box;
+  margin: 0;
 }
 
 .container {
@@ -20,17 +20,17 @@ body {
 }
 
 .panel {
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
   border-radius: 50px;
-  color: white;
+  color: #fff;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
   position: relative;
-  transition: flex 0.7 ease-in;
+  -webkit-transition: all 700ms ease-in;
 }
 
 .panel h3 {
